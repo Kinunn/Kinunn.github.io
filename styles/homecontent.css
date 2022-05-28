@@ -1,0 +1,55 @@
+.homeawal{
+display: grid;
+grid-template-rows: 1fr;
+row-gap: 10px;
+align-items: center;
+justify-content: center;
+background-color: white; 
+margin-top: 5px;   
+}
+
+.welcometext{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 20px 30px 20px; 
+    
+}
+
+.welcometext h1{
+
+    font-size: 45px;
+}
+.welcometext p{
+    color: #15133C;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.imghome{
+ width: 100%;
+
+}
+
+.welcometext .cekbouquet{
+    color: white;
+    background-color: #15133C;
+    border: none;
+    width: 100px;
+    /* border-radius: 10px; */
+    cursor: pointer;
+    padding: 10px;
+    border-width: 1px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.welcometext .cekbouquet:hover{
+    color:#143F6B ;
+    background-color: white;
+    border-color: #143F6B;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+

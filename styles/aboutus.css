@@ -1,0 +1,92 @@
+
+.banner-pict-container{
+    margin-bottom: 300px;
+    position: relative;
+    
+}
+.judul{
+    position: absolute;
+    margin-top: 100px;
+    font-size: 130px;
+    color: white;
+    
+}
+
+.banner-pict{
+    width: 100%;
+}
+.lokasi-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color: #15133C;
+    margin-bottom: 30px;
+}
+
+.gambar{
+    width: 100%;
+    height: 100%;
+}
+
+.lokasi-text{
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.story-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    background-color:#FFD24C ;
+    margin-bottom: 300px;
+}
+
+.story-text{
+    display: block;
+    margin-left: 30px;
+    font-size: 20px;
+    color:#15133C ;
+}
+.kontak{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.sosmed-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.kontak div{
+    color: #15133C;
+    font-size: 25px;
+}
+
+.sosmed-icon{
+    width: 40px;
+}
+
+.kontak-judul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sosmed-container div{
+    cursor: pointer;
+}
+.sosmed-container div:hover{
+   color: #FFD24C;
+}
+

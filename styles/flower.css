@@ -1,0 +1,119 @@
+.flowerpage{
+    display: grid;
+   grid-template-rows: 1fr 1fr; 
+   row-gap: 50px;
+   margin: 5px 0px 200px 0px; 
+}
+
+.flowerpagebeginning{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    column-gap: 60px;
+    justify-content: space-between;
+    background-color: beige; 
+    margin-bottom: 100px;
+
+}
+.flowerpagebeginning-desc{
+    width: 100%;
+    font-size: 30px;
+    margin-left: 20px;
+    
+ 
+}
+
+.flowerpagebeginning-pict{
+    width: 100%;
+ 
+   
+}
+
+.flowerpict{
+    width: 100%;
+    height: 100%;
+}
+
+.flower-list-container{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    background-color: #15133C;
+}
+
+
+.flowerlist-tittle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    padding-top: 10px;
+}
+.flower-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 25px;
+    row-gap: 30px;
+    margin:0px 30px 80px 30px;
+}
+
+
+ .flowerlist-pict{
+     display: flex;
+     flex: 1;
+     justify-content: center;
+     align-items: center;
+    width: 300px;
+    height: 250px;
+}
+
+
+.flower-price{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 20px 20px 20px 20px ;
+    cursor: pointer;
+}
+
+.flower-price:hover{
+    color: #FFD24C;
+}
+
+.bouquetcontent{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    column-gap: 0px;
+    justify-content: space-between;
+    background-color: #809A6F;
+    margin-bottom: 100px;
+}
+
+.bouquetcontentpict-container{
+    margin-right: 20px;
+}
+
+.bouquetcontent-pict{
+    width: 100%;
+    height: 100%;
+}
+
+.bouquetcontenttext-container{
+    margin-left: 30px;
+}
+
+.bouquetcontenttext{
+    font-size: 30px;
+
+}
+.bouquetcontenttext p{
+    font-size: 25px;
+    color: white;
+    margin-right: 20px;
+}
